@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shahriar Medtour</title>
+    <link rel="stylesheet" href="landing.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="logo">
+          <img src="media/LOGOPL.jpg" alt="Logo" />
+        </div>
+        <nav>
+          <a href="#">HOME</a>
+          <a href="index.html">ABOUTUS</a>
+          <a href="#">SERVICES</a>
+          <a href="#">ACCOUNT</a>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" dir="ltr">
+      <div class="hero-text">
+        <h1 data-lang-key="title">SHAHRIAR<br />MEDTOUR</h1>
+        <h2 data-lang-key="subtitle">
+          Towards Better Health and an Unforgettable Travel Experience
+        </h2>
+        <p data-lang-key="description">
+          Towards Better Health and an Unforgettable Travel Experience
+        </p>
+        <a href="#" class="btn" data-lang-key="button"> Contact Us Today! </a>
+      </div>
+
+      <!-- Map & Plane -->
+      <img
+        src="media/WhatsApp Image 2025-05-15 at 15.42.10_435deed3.jpg"
+        alt="World Map"
+        class="map"
+      />
+      <img
+        src="media/WhatsApp Image 2025-05-15 at 15.42.35_296728c8.jpg"
+        alt="Plane"
+        class="plane"
+      />
+
+      <!-- Language toggle -->
+      <div class="language-toggle">
+        <button id="lang-ar">ARABIC</button>
+        <button id="lang-en" class="active">ENGLISH</button>
+      </div>
+
+      <!-- Pop-in Timeline (invisible until hovered) -->
+      <div class="timeline">
+        <div class="dot"></div>
+        <div class="item">
+          <span class="num">20</span>
+          <span class="date">March 20, 2025</span>
+        </div>
+        <div class="item">
+          <span class="num">12</span>
+          <span class="date">May 12, 2025</span>
+        </div>
+        <div class="item">
+          <span class="num">11</span>
+          <span class="date">June 11, 2025</span>
+        </div>
+        <div class="item">
+          <span class="num">3</span>
+          <span class="date">June 3, 2025</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Trusted Medical Network -->
+    <section class="network">
+      <h2>Our Trusted Medical Network</h2>
+      <div class="network-cards">
+        <div class="network-card">
+          <img src="media/cierre-redes.jpg" alt="Hospital 1" />
+          <h3>Name of Hospital</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="network-card">
+          <img src="media/cierre-redes.jpg" alt="Hospital 1" />
+          <h3>Name of Hospital</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="network-card">
+          <img src="media/cierre-redes.jpg" alt="Hospital 1" />
+          <h3>Name of Hospital</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="network-card">
+          <img src="media/cierre-redes.jpg" alt="Hospital 1" />
+          <h3>Name of Hospital</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <!-- repeat .network-card as needed -->
+      </div>
+    </section>
+
+    <!-- Our Medical Experts -->
+    <section class="experts">
+      <h2>Our Medical Experts</h2>
+      <div class="experts-wrapper">
+        <div class="experts-logo">
+          <img
+            src="media/WhatsApp Image 2025-05-15 at 16.10.07_9fd1e854.jpg"
+            alt="Logo"
+          />
+        </div>
+        <div class="experts-divider">
+          <button class="arrow prev">&lt;</button>
+          <div class="line"></div>
+        </div>
+        <div class="experts-cards-container">
+          <button class="arrow next">&gt;</button>
+          <div class="experts-cards">
+            <div class="expert-card">
+              <img
+                src="media/doctor-pictures-l5y1qs2998u7rf0x.jpg"
+                alt="Dr. John Doe"
+              />
+              <h3>Dr. John Doe</h3>
+              <p>Expert in cardiology with 20 years of experience.</p>
+              <a href="#" class="btn-details">MORE DETAILS</a>
+            </div>
+            <div class="expert-card">
+              <img
+                src="media/doctor-pictures-l5y1qs2998u7rf0x.jpg"
+                alt="Dr. John Doe"
+              />
+              <h3>Dr. John Doe</h3>
+              <p>Expert in cardiology with 20 years of experience.</p>
+              <a href="#" class="btn-details">MORE DETAILS</a>
+            </div>
+            <div class="expert-card">
+              <img
+                src="media/doctor-pictures-l5y1qs2998u7rf0x.jpg"
+                alt="Dr. John Doe"
+              />
+              <h3>Dr. John Doe</h3>
+              <p>Expert in cardiology with 20 years of experience.</p>
+              <a href="#" class="btn-details">MORE DETAILS</a>
+            </div>
+            <div class="expert-card">
+              <img
+                src="media/doctor-pictures-l5y1qs2998u7rf0x.jpg"
+                alt="Dr. John Doe"
+              />
+              <h3>Dr. John Doe</h3>
+              <p>Expert in cardiology with 20 years of experience.</p>
+              <a href="#" class="btn-details">MORE DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Hotels Section -->
+    <section class="featured-section">
+      <div class="featured-title">Stay, Heal, and Feel at Home</div>
+      <div class="featured-container">
+        <img src="media/hotel-header.jpg" alt="Hotels" class="featured-img" />
+        <div class="featured-overlay"></div>
+        <h3 class="featured-label">HOTELS</h3>
+      </div>
+    </section>
+
+    <script>
+      // 1) Mobile nav toggle
+      function toggleMenu() {
+        const nav = document.querySelector("nav");
+        nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+      }
+
+      // 2) Translations for English & Arabic
+      const translations = {
+        en: {
+          title: "SHAHRIAR<br/>MEDTOUR",
+          subtitle:
+            "Towards Better Health and an Unforgettable Travel Experience",
+          description:
+            "Towards Better Health and an Unforgettable Travel Experience",
+          button: "Contact Us Today!",
+        },
+        ar: {
+          title: "شهريار<br/>ميدتور",
+          subtitle: "نحو صحة أفضل وتجربة سفر لا تُنسى",
+          description: "نحو صحة أفضل وتجربة سفر لا تُنسى",
+          button: "اتصل بنا اليوم!",
+        },
+      };
+
+      // 3) Apply language
+      function setLanguage(lang) {
+        const hero = document.querySelector(".hero");
+        hero.dir = lang === "ar" ? "rtl" : "ltr";
+
+        Object.entries(translations[lang]).forEach(([key, text]) => {
+          const el = document.querySelector(`[data-lang-key="${key}"]`);
+          if (!el) return;
+          if (key === "title") el.innerHTML = text;
+          else el.innerText = text;
+        });
+
+        document
+          .getElementById("lang-ar")
+          .classList.toggle("active", lang === "ar");
+        document
+          .getElementById("lang-en")
+          .classList.toggle("active", lang === "en");
+      }
+
+      // 4) Hook up buttons
+      document
+        .getElementById("lang-ar")
+        .addEventListener("click", () => setLanguage("ar"));
+      document
+        .getElementById("lang-en")
+        .addEventListener("click", () => setLanguage("en"));
+
+      // 5) Initialize to English
+      setLanguage("en");
+    </script>
+  </body>
+</html>
