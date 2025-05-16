@@ -3,7 +3,7 @@
    ========================================================================== */
 :root {
   --primary: #9195c9;
-  --accent: #3f26ff;
+  --accent: #2f2f8b;
   --light: rgba(145, 149, 201, 0.3);
   --light-shadow: rgba(63, 38, 255, 0.2);
   --dark: #1a1a2e;
@@ -492,4 +492,30 @@ nav a {
   font-weight: 600;
   letter-spacing: 1px;
   z-index: 2;
+}
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+footer {
+  background: #2f2f8b; /* same dark/navy you use elsewhere */
+}
+
+.footer-inner {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0; /* vertical padding */
+  display: flex;
+  justify-content: center; /* center the logo */
+  align-items: center;
+  border-radius: 20px;
+}
+
+.footer-logo {
+  height: 50px; /* adjust to taste */
+  display: block;
+  /* NO filter here */
 }
